@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+nav {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav h2 {
+  margin-right: auto;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* 
+.page {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+} */
+
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  color: #333;
+}
+
+.skills li:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-3px);
+  transition: 0.2s;
+}
+
+.page h1 {
+  font-size: 40px;
+}
+
+.page h2 {
+  color: #007bff;
+}
+
+.page p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.project {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
