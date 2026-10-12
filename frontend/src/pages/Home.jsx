@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 function Home() {
     return (
         <div className="page">
@@ -10,7 +13,7 @@ function Home() {
                 and building projects using React, Node.js and MongoDB.
             </p>
 
-            <button>View My Projects</button>
+          
         </div>
     );
 }
